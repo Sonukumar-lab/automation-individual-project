@@ -1,0 +1,10 @@
+package org.automationindividualproject.ShivamYadav.Maven.src.main.java.com.shivam;
+
+/**
+ * Hello world!
+ */
+public class App {
+    public static void main(String[] args) {
+        System.out.println("Hello World!");
+    }
+}
