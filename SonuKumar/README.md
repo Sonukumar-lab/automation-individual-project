@@ -1,36 +1,37 @@
-# OrangeHRM Demo Login Automation
+# OrangeHRM Login Automation Project 
 
-Student Name: Shaik Nusrath  
-Milestone: 1   
+Student Name: Sonu Kumar  
+Milestone: 1  
 
-## Project Description
-This project automates the login functionality of the OrangeHRM demo application using Selenium WebDriver, TestNG, Maven, and Page Object Model (POM).
+## Overview
+This project focuses on automating the login module of the OrangeHRM demo website. The automation is implemented using Selenium WebDriver with Java, following best practices like the Page Object Model (POM) for better maintainability and scalability.
 
-## Tech Stack
+## Tools & Technologies Used
 - Java
 - Selenium WebDriver
 - TestNG
 - Maven
 - ChromeDriver
 
-## Framework Design
-- Page Object Model (POM)
-- BaseTest for browser setup & teardown
-- Screenshot capture on test failure
-- Maven Surefire Plugin for execution
+## Framework Architecture
+- Page Object Model (POM) design pattern
+- Base test class for browser initialization and cleanup
+- Automatic screenshot capture on test failure
+- Maven Surefire Plugin for test execution
 
-## Test Cases Automated
-1. Valid username & valid password
-2. Valid username & invalid password
-3. Invalid username & valid password
-4. Invalid username & invalid password
-5. Empty username
-6. Empty password
-7. Empty username & empty password
-8. Username with spaces
-9. Password field masked
-10. Login button enabled
+## Automated Test Scenarios
+1. Login with valid username and valid password
+2. Login with valid username and invalid password
+3. Login with invalid username and valid password
+4. Login with invalid username and invalid password
+5. Login with empty username field
+6. Login with empty password field
+7. Login with both username and password empty
+8. Username input containing spaces
+9. Verification of password field masking
+10. Login button enable/disable validation
 
-## Execution
-gitbash
+## How to Execute the Tests
+Open Git Bash or terminal and run the following command:
+
 mvn clean test
